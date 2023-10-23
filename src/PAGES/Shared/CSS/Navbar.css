@@ -1,0 +1,47 @@
+#submenu {
+    /* background-color: rgba(12, 13, 14, 0.8); */
+    background-image: linear-gradient(rgba(45, 192, 118, 0.712), rgba(114, 175, 86, 0.788));
+    color: antiquewhite;
+    position: absolute;
+    z-index: 1;
+    border: 1px;
+    border-radius: 5px;
+}
+
+#parent li button:hover {
+    background-color: rgb(91, 218, 218);
+    color: black;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 4px #ccf8f2
+}
+
+#mobilemenu {
+    position: absolute;
+    z-index: 1;
+}
+
+#mobilemenu #parent li button:hover {
+    background-color: rgb(91, 218, 218);
+    color: black;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 4px #ccf8f2
+}
+
+#onhover {
+    display: none;
+}
+
+#parent:hover {
+    #onhover {
+        display: block;
+        position: absolute;
+        margin-top: 30px;
+        z-index: 2;
+        background-image: linear-gradient(rgba(45, 192, 118, 0.9), rgba(114, 175, 86, 0.9));
+        color: rgb(4, 4, 27);
+        border-radius: 5px;
+
+    }
+}

@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+    #imgHolder {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        border: 2px;
+        border-radius: 10px;
+
+    }
+
+    #otherProducts {
+        margin-top: 50px;
+    }
+
+    #topDiv {
+        overflow: scroll;
+    }
+
+}
